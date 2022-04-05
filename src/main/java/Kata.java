@@ -10,6 +10,7 @@ public class Kata {
 
         for(int i=0; i < dataString.length(); i+= 8) {
             dataList.add(dataString.substring(i, i+8));
+
         }
 
         Collections.reverse(dataList);
