@@ -15,7 +15,7 @@ public class Kata {
 
         Collections.reverse(dataList);
 
-        String listToString = new StringBuilder(String.join("", dataList)).toString();
+        String listToString = String.join("", dataList);
 
         return Arrays.stream(listToString.split("")).mapToInt(Integer::parseInt).toArray();
     }
